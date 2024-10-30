@@ -1,0 +1,107 @@
+/* App.css */
+
+/* Set a default styling for the app container */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6; /* Light gray background */
+  color: #333;
+}
+
+/* Center and contain the app with padding */
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* White card background */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+/* Space between buttons at the top */
+.wallet-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Style the buttons uniformly */
+button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1e3a8a; /* Navy blue */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #374151; /* Dark gray */
+}
+
+/* Input fields styling */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Button for specific components */
+.sign-button, .send-button, .airdrop-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #10b981; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sign-button:hover, .send-button:hover, .airdrop-button:hover {
+  background-color: #059669; /* Darker green */
+}
+
+/* Align inputs and buttons side by side */
+.inline-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Styling for balance display */
+.balance-display {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1e3a8a; /* Navy blue */
+  margin-top: 10px;
+}
+
+/* Section styling */
+.section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Message for alerts */
+.alert {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f87171; /* Red background */
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
